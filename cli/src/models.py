@@ -101,18 +101,18 @@ class Song:
         return self.artwork_url.replace("-large", "-original")
 
     def select_transcodings(self, fmt: Format) -> list[Transcoding]:
-        # Adaptive sind keine feste Datei → nie auswählbar.
+        # Geordnete Präferenzliste; der Consumer nimmt bei Einzel-Format die erste, die lädt
+        # (Fallback bei 404/Fehler), bei ALL werden alle geladen. Adaptive sind nie auswählbar.
         usable = [t for t in self.transcodings if not t.is_adaptive]
         if not usable:
             return []
-        if fmt is Format.ALL:
-            return usable
-        if fmt is Format.BEST:
-            return [max(usable, key=lambda t: t.bitrate)]
-        # mp3/m4a: bestes des gewünschten Containers, sonst Fallback aufs Beste insgesamt.
-        same = [t for t in usable if t.file_extension == fmt.value]
-        pool = same or usable
-        return [max(pool, key=lambda t: t.bitrate)]
+        by_quality = sorted(usable, key=lambda t: t.bitrate, reverse=True)
+        if fmt in (Format.ALL, Format.BEST):
+            return by_quality  # ALL: alle laden; BEST: bester zuerst + Fallback
+        # mp3/m4a: gewünschtes Format zuerst (nach Bitrate), dann der Rest als Fallback.
+        preferred = [t for t in by_quality if t.file_extension == fmt.value]
+        rest = [t for t in by_quality if t.file_extension != fmt.value]
+        return preferred + rest
 
     @classmethod
     def from_track_data(cls, track: dict) -> "Song":

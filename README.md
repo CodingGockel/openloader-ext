@@ -32,7 +32,7 @@ ffmpeg -version
 
 ```bash
 cd cli/src
-python main.py <url> [--dir/-d ZIELORDNER] [--format/-f all|best|mp3|m4a]
+python main.py <url> [--dir/-d ZIELORDNER] [--format/-f all|best|mp3|m4a] [--worker/-w N] [--retries N]
 ```
 
 - `<url>` — eine SoundCloud-**Track**- oder **Playlist**-URL. Playlists werden automatisch
@@ -44,6 +44,12 @@ python main.py <url> [--dir/-d ZIELORDNER] [--format/-f all|best|mp3|m4a]
   - `m4a` — beste verfügbare AAC/M4A (sonst Fallback auf die beste Version überhaupt).
   - `best` — die qualitativ beste Version insgesamt (meist `aac_160k`).
   - `all` — alle nicht-adaptiven Versionen (mehrere Dateien pro Song).
+- `--worker` / `-w` — Anzahl paralleler Downloads bei Playlists (Default: `4`, min. `1`). Da
+  Downloads netzwerk-gebunden sind, gibt es schon bei wenigen Workern einen großen Speedup; zu
+  hohe Werte riskieren Drosselung (HTTP 429) durch SoundCloud.
+- `--retries` — Versuche pro Datei bei Fehlern (Default: `3`, min. `1`; `1` = kein Retry).
+  Transiente Fehler (Timeouts, 5xx) werden mit exponentiellem Backoff wiederholt; deterministische
+  404/403 werden nicht wiederholt.
 
 Hilfe anzeigen:
 
@@ -80,6 +86,9 @@ python main.py https://soundcloud.com/artist/sets/playlist-name --dir ~/Music/op
   ID3v2.3 (umlautsicher via UTF-16), M4A als MP4-Atome.
 
 Ein fehlgeschlagener Download bricht weder die restlichen Dateien noch die übrige Playlist ab.
+Schlägt bei `mp3`/`m4a`/`best` eine Transcoding fehl (z. B. 404 beim Auflösen der Stream-URL — manche
+Varianten eines Tracks sind nicht abrufbar), wird automatisch die nächstbeste Transcoding probiert,
+sodass trotzdem eine Datei entsteht.
 
 ## Ausgabestruktur
 

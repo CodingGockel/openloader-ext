@@ -1,5 +1,8 @@
 import re
 import subprocess
+import time
+from collections.abc import Callable
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 import requests
@@ -32,25 +35,49 @@ class SoundCloudService:
 
     # --- Öffentliche Pipelines ---
 
-    def download_song(self, url: str, out_dir: Path, fmt: Format) -> Path:
+    def download_song(
+        self, url: str, out_dir: Path, fmt: Format, retries: int = 3
+    ) -> Path:
         entry: SongEntry = self._fetch_song(url)
         song: Song = entry.song
         print(f"{song.artist} - {song.title}")
-        self._save_track(song, entry.client_id, out_dir, fmt)
+        self._save_track(song, entry.client_id, out_dir, fmt, retries=retries)
         return out_dir
 
-    def download_playlist(self, url: str, out_dir: Path, fmt: Format) -> Path:
+    def download_playlist(
+        self, url: str, out_dir: Path, fmt: Format, workers: int = 4, retries: int = 3
+    ) -> Path:
         entry: PlaylistEntry = self._fetch_playlist(url)
         dest: Path = out_dir / self._sanitize_filename(entry.title)
+        dest.mkdir(parents=True, exist_ok=True)
         total: int = len(entry.songs)
-        print(f"Playlist: {entry.title} ({total} Tracks)")
-        for n, song in enumerate(entry.songs, start=1):
-            print(f"\n=== [{n}/{total}] {song.artist} - {song.title} ===")
-            try:
-                self._save_track(song, entry.client_id, dest, fmt, n, total)
-            except Exception as e:  # ein kaputter Track stoppt nicht die ganze Playlist
-                print(f"  ⚠ Track fehlgeschlagen: {e}")
+        print(f"Playlist: {entry.title} ({total} Tracks, {workers} parallel)")
+        # Song-Ebene parallelisieren; jeder Task puffert seine Ausgabe und der
+        # Hauptthread gibt sie blockweise aus, sobald ein Track fertig ist.
+        with ThreadPoolExecutor(max_workers=workers) as pool:
+            futures = [
+                pool.submit(
+                    self._download_song_task,
+                    n, total, song, entry.client_id, dest, fmt, retries,
+                )
+                for n, song in enumerate(entry.songs, start=1)
+            ]
+            for future in as_completed(futures):
+                print("\n" + "\n".join(future.result()))
         return dest
+
+    def _download_song_task(
+        self, n: int, total: int, song: Song, client_id: str, dest: Path,
+        fmt: Format, retries: int,
+    ) -> list[str]:
+        lines = [f"=== [{n}/{total}] {song.artist} - {song.title} ==="]
+        try:
+            self._save_track(
+                song, client_id, dest, fmt, n, total, retries=retries, log=lines.append
+            )
+        except Exception as e:  # ein kaputter Track stoppt nicht die ganze Playlist
+            lines.append(f"  ⚠ Track fehlgeschlagen: {e}")
+        return lines
 
     # --- Geteilter Fetch-Kern ---
 
@@ -115,33 +142,66 @@ class SoundCloudService:
         fmt: Format,
         track_number: int | None = None,
         track_total: int | None = None,
+        retries: int = 3,
+        log: Callable[[str], None] = print,
     ) -> Path:
         out_dir.mkdir(parents=True, exist_ok=True)
-        selected = song.select_transcodings(fmt)
-        if not selected:
-            print("  ⚠ Keine ladbare Transcoding gefunden.")
+        candidates = song.select_transcodings(fmt)
+        if not candidates:
+            log("  ⚠ Keine ladbare Transcoding gefunden.")
             return out_dir
         # Cover einmal pro Song laden und in jede Datei einbetten.
         try:
             cover = self._fetch_cover(song)
         except Exception as e:
-            print(f"  ⚠ Cover konnte nicht geladen werden: {e}")
+            log(f"  ⚠ Cover konnte nicht geladen werden: {e}")
             cover = None
-        # Bei mehreren Dateien (Format.ALL) den Dateinamen eindeutig machen.
-        disambiguate = len(selected) > 1
-        for transcoding in selected:
+        # ALL: alle Kandidaten laden. Einzel-Format: erste, die funktioniert (Fallback bei Fehler).
+        download_all = fmt is Format.ALL
+        disambiguate = download_all and len(candidates) > 1
+        for transcoding in candidates:
             label = f"{transcoding.preset} ({transcoding.protocol})"
-            print(f"Lade {label} …")
+            log(f"Lade {label} …")
             try:
-                dest = self._download_one(
-                    transcoding, song, client_id, out_dir, cover,
-                    disambiguate, track_number, track_total,
+                dest = self._with_retry(
+                    retries, label, log,
+                    lambda t=transcoding: self._download_one(
+                        t, song, client_id, out_dir, cover,
+                        disambiguate, track_number, track_total,
+                    ),
                 )
-            except Exception as e:  # ein Fehlschlag darf den Rest nicht abbrechen
-                print(f"  ⚠ {label} fehlgeschlagen: {e}")
+            except Exception as e:  # nächste Transcoding probieren (bzw. nächste Datei bei ALL)
+                log(f"  ⚠ {label} fehlgeschlagen: {e}")
                 continue
-            print(f"  → {dest}")
+            log(f"  → {dest}")
+            if not download_all:
+                return out_dir  # erste funktionierende Transcoding reicht
+        if not download_all:
+            log("  ⚠ Alle Transcodings fehlgeschlagen.")
         return out_dir
+
+    @staticmethod
+    def _is_deterministic(e: Exception) -> bool:
+        # 404/403 sind deterministisch → kein Retry sinnvoll, direkt Fallback auf nächste Transcoding.
+        return (
+            isinstance(e, requests.HTTPError)
+            and e.response is not None
+            and e.response.status_code in (403, 404)
+        )
+
+    def _with_retry(
+        self, retries: int, label: str, log: Callable[[str], None], fn: Callable[[], Path]
+    ) -> Path:
+        for attempt in range(1, retries + 1):
+            try:
+                return fn()
+            except Exception as e:
+                if attempt == retries or self._is_deterministic(e):
+                    raise  # letzter Versuch oder deterministisch (404/403) → Fallback übernimmt
+                wait = 2 ** (attempt - 1)  # 1s, 2s, 4s, …
+                log(f"  ⚠ {label} Versuch {attempt}/{retries}: {e} — erneut in {wait}s …")
+                time.sleep(wait)
+        raise AssertionError("unreachable")  # Schleife endet via return oder raise
 
     def _download_one(
         self,
@@ -187,10 +247,13 @@ class SoundCloudService:
 
     def _download_hls(self, media_url: str, dest_path: Path) -> None:
         # ffmpeg lädt die m3u8-Segmente und muxt sie verlustfrei (-c copy) in eine Datei.
+        # -nostdin + stdin=DEVNULL: ffmpeg darf das Terminal-stdin NICHT anfassen, sonst
+        # bleibt es (v.a. bei mehreren parallelen ffmpeg-Prozessen) kaputt zurück.
         subprocess.run(
-            ["ffmpeg", "-loglevel", "error", "-nostats", "-y",
+            ["ffmpeg", "-nostdin", "-loglevel", "error", "-nostats", "-y",
              "-i", media_url, "-c", "copy", str(dest_path)],
             check=True,
+            stdin=subprocess.DEVNULL,
         )
 
     def _fetch_cover(self, song: Song) -> tuple[bytes, str] | None:
