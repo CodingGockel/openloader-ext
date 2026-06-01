@@ -32,6 +32,7 @@ class Transcoding:
             return "mp3"
         return "m4a"
 
+
 @dataclass
 class SongEntry:
     sc_version: str
