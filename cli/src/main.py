@@ -3,8 +3,8 @@ from typing import Annotated
 
 import typer
 
-from client import SoundCloudClient
-from downloader import Downloader
+from models import Format
+from service import SoundCloudService
 
 app = typer.Typer(
     add_completion=False,
@@ -19,19 +19,19 @@ def download(
         Path,
         typer.Option("--dir", "-d", help="Zielverzeichnis für die Downloads."),
     ] = Path("downloads"),
+    format: Annotated[
+        Format,
+        typer.Option("--format", "-f", help="Welche Version(en) laden."),
+    ] = Format.MP3,
 ) -> None:
-    """Lädt einen Track oder eine ganze Playlist (alle verfügbaren Versionen)."""
-    client = SoundCloudClient()
-    downloader = Downloader(client)
-    base_dir = str(dir)
+    """Lädt einen Track oder eine ganze Playlist."""
+    service = SoundCloudService()
     if "/sets/" in url:  # Playlist-URLs enthalten /sets/
-        out_dir = downloader.download_playlist(url, base_dir=base_dir)
+        out_dir = service.download_playlist(url, dir, format)
         print(f"\nPlaylist gespeichert in: {out_dir}")
     else:
-        entry = client.get_song_entry(url)
-        entry.print_summary()
-        out_dir = downloader.download_all_versions(entry, base_dir=base_dir)
-        print(f"Alle Versionen gespeichert in: {out_dir}")
+        out_dir = service.download_song(url, dir, format)
+        print(f"\nGespeichert in: {out_dir}")
 
 
 if __name__ == "__main__":

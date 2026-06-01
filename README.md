@@ -1,12 +1,12 @@
 # openloader
 
 CLI-Tool zum Herunterladen von SoundCloud-Tracks und -Playlists. Es liest die Track-Daten aus
-dem `window.__sc_hydration`-JSON der Seite, löst die Stream-URLs auf, lädt jede verfügbare
-Transcoding herunter und bettet Metadaten + Cover-Art ein.
+dem `window.__sc_hydration`-JSON der Seite, löst die Stream-URLs auf, lädt die gewünschte
+Version herunter und bettet Metadaten + Cover-Art ein.
 
-> Status: Prototyp im Umbau. Aktuell lädt das Tool pro Track **alle** verfügbaren Versionen.
-> Geplant sind als Nächstes: Best-Quality-Auswahl (eine Datei pro Song), paralleler Download
-> und inkrementeller Playlist-Sync.
+> Status: in aktiver Entwicklung. Standardmäßig wird **eine** Datei pro Song in der gewählten
+> Qualität geladen (siehe `--format`). Geplant als Nächstes: paralleler Download und
+> inkrementeller Playlist-Sync.
 
 ## Voraussetzungen
 
@@ -32,13 +32,18 @@ ffmpeg -version
 
 ```bash
 cd cli/src
-python main.py <url> [--dir/-d ZIELORDNER]
+python main.py <url> [--dir/-d ZIELORDNER] [--format/-f all|best|mp3|m4a]
 ```
 
 - `<url>` — eine SoundCloud-**Track**- oder **Playlist**-URL. Playlists werden automatisch
   erkannt (die URL enthält `/sets/`).
 - `--dir` / `-d` — Zielverzeichnis für die Downloads (Default: `downloads`). Der Ordner wird
   bei Bedarf angelegt.
+- `--format` / `-f` — welche Version(en) geladen werden (Default: `mp3`):
+  - `mp3` — beste verfügbare MP3 (sonst Fallback auf die beste Version überhaupt).
+  - `m4a` — beste verfügbare AAC/M4A (sonst Fallback auf die beste Version überhaupt).
+  - `best` — die qualitativ beste Version insgesamt (meist `aac_160k`).
+  - `all` — alle nicht-adaptiven Versionen (mehrere Dateien pro Song).
 
 Hilfe anzeigen:
 
@@ -48,53 +53,53 @@ python main.py --help
 
 ### Beispiele
 
-Einzelnen Track in den Standardordner `downloads/` laden:
+Einzelnen Track als MP3 in den Standardordner `downloads/` laden:
 
 ```bash
 python main.py https://soundcloud.com/artist/track-name
 ```
 
-Eine Playlist in einen eigenen Ordner laden:
+Eine Playlist in bester M4A-Qualität in einen eigenen Ordner laden:
 
 ```bash
-python main.py https://soundcloud.com/artist/sets/playlist-name --dir ~/Music/openloader
+python main.py https://soundcloud.com/artist/sets/playlist-name --dir ~/Music/openloader --format m4a
 ```
 
 ## Wie es funktioniert
 
-- **Track:** Die Seite wird geladen, der Titel/Artist/die Transcodings werden aus
-  `window.__sc_hydration` extrahiert und eine kurze Übersicht ausgegeben. Anschließend wird jede
-  ladbare Version heruntergeladen.
+- **Track:** Die Seite wird geladen, der Song (Titel/Artist/Transcodings) wird aus
+  `window.__sc_hydration` extrahiert; anschließend wird die per `--format` gewählte Version geladen.
 - **Playlist:** SoundCloud hydriert im HTML nur die ersten ~3 Tracks vollständig; die übrigen
   werden per `/tracks`-API anhand ihrer IDs nachgeladen und in Playlist-Reihenfolge gebracht.
-  Danach wird jeder Track wie oben geladen.
+  Danach durchläuft jeder Track denselben Download-Ablauf wie ein Einzeltrack.
 - **Formate pro Track:**
   - `progressive` → fertige MP3, direkt heruntergeladen.
   - `hls` → m3u8-Playlist, per `ffmpeg -c copy` zu `.m4a` (AAC) bzw. `.mp3` gemuxt.
-  - `abr_*` (adaptive Bitrate) → wird übersprungen (keine feste Datei).
+  - `abr_*` (adaptive Bitrate) → wird immer übersprungen (keine feste Datei).
 - **Metadaten:** Titel, Artist, ggf. Track-Nummer und Cover werden eingebettet — MP3 als
   ID3v2.3 (umlautsicher via UTF-16), M4A als MP4-Atome.
 
-Ein fehlgeschlagener Download bricht weder die restlichen Versionen noch die übrige Playlist ab.
+Ein fehlgeschlagener Download bricht weder die restlichen Dateien noch die übrige Playlist ab.
 
 ## Ausgabestruktur
 
+Eine Datei pro Song (Standard), flach im Zielordner:
+
 ```
 <ZIELORDNER>/
-└── <Playlist-Titel>/                 # nur bei Playlists
-    └── <Track-Titel>/
-        ├── <Track-Titel>_aac_160k_hls.m4a
-        ├── <Track-Titel>_mp3_1_0_progressive.mp3
-        └── …                          # je eine Datei pro Version
+├── <Artist> - <Title>.mp3                      # einzelner Track
+└── <Playlist-Titel>/                           # nur bei Playlists
+    ├── <Artist> - <Title>.mp3
+    └── …
 ```
 
-Bei einem einzelnen Track entfällt der Playlist-Unterordner.
+Mit `--format all` entstehen pro Song mehrere Dateien mit Versions-Suffix
+(`<Artist> - <Title>_<preset>_<protocol>.<ext>`) im selben Ordner.
 
 ## Projektstruktur (`cli/src/`)
 
 | Datei | Aufgabe |
 |-------|---------|
-| `models.py` | Datenmodelle: `Transcoding`, `SongEntry`, `PlaylistEntry` (inkl. HTML-/JSON-Parsing). |
-| `client.py` | `SoundCloudClient` — Netzwerk-/Parsing-Schicht: HTML laden, Stream-URLs auflösen, `/tracks`-API. |
-| `downloader.py` | `Downloader` — Download (progressive/HLS), Cover, Metadaten-Tagging, Playlist-Orchestrierung. |
+| `models.py` | Datenmodelle (`Transcoding`, `Song`, `SongEntry`, `PlaylistEntry`), `Format`-Filter, HTML-/JSON-Parsing. |
+| `service.py` | `SoundCloudService` — die zwei Pipelines (`download_song`, `download_playlist`) plus geteilter Fetch/Download/Tagging. |
 | `main.py` | Typer-CLI als Einstiegspunkt. |
