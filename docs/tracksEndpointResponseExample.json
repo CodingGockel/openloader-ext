@@ -1,0 +1,1687 @@
+[
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-M6SIwm3862CaUKzL-MjjG3w-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 4527,
+        "created_at": "2022-09-29T09:59:21Z",
+        "description": "Kept getting so many messages for this one so thought id put it out for you all, enjoy ya sickcunts x\n\nSOCIALS:\nINSTAGRAM: itsrestricted_\nSNAPCHAT: rsfyrios10\nFACEBOOK: www.facebook.com/itsrestricted",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 192051,
+        "full_duration": 192052,
+        "embeddable_by": "all",
+        "genre": "",
+        "has_downloads_left": false,
+        "id": 1353348274,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2022-09-29T10:16:39Z",
+        "license": "all-rights-reserved",
+        "likes_count": 62440,
+        "permalink": "move-your-body-x-my-humps-restricted-edit",
+        "permalink_url": "https://soundcloud.com/itsrestricted-second/move-your-body-x-my-humps-restricted-edit",
+        "playback_count": 2928220,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1353348274,
+            "urn": "soundcloud:tracks:1353348274",
+            "contains_music": true
+        },
+        "purchase_title": "Free Download",
+        "purchase_url": "https://hypeddit.com/restricted/moveyourbodyxmyhumps",
+        "release_date": null,
+        "reposts_count": 3876,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Move Your Body X My Humps (Restricted Edit)",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1353348274",
+        "urn": "soundcloud:tracks:1353348274",
+        "user_id": 251089882,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/8Bp9CncAbNi4_m.json",
+        "display_date": "2022-09-29T09:59:21Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1353348274/f7955129-97be-4eeb-8ab2-7f7be7e8cbe7/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 192051,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1353348274/046be7e3-ffd6-4ae0-b310-f78672e38174/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 192051,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1353348274/590483e2-41f4-4f6b-b246-c957fb1d4616/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 192051,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1353348274/190d32eb-316d-4b06-84a7-379bc1a0fdd2/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 192052,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1353348274/190d32eb-316d-4b06-84a7-379bc1a0fdd2/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 192052,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1353348274",
+        "station_permalink": "track-stations:1353348274",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6IjI0ZGM3OGVjLWRmY2QtNGIyMi05MTVlLTkxNmM1OTI1ZmVlOCIsImlhdCI6MTc4MDI2NDgyMX0.5IWb-uqpJKs1Wx6JdMBFKmc8tRpLcAS302F03vZrN-g",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-NDry1ibC6cAaVNt0-dmVS1Q-large.jpg",
+            "first_name": "Rhys ",
+            "followers_count": 84111,
+            "full_name": "Rhys  Sfyrios",
+            "id": 251089882,
+            "kind": "user",
+            "last_modified": "2025-10-01T10:37:07Z",
+            "last_name": "Sfyrios",
+            "permalink": "itsrestricted-second",
+            "permalink_url": "https://soundcloud.com/itsrestricted-second",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A251089882",
+            "urn": "soundcloud:users:251089882",
+            "username": "Restricted (Bootlegs & Mixes)",
+            "verified": false,
+            "city": "Adelaide",
+            "country_code": "AU",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:251089882",
+            "station_permalink": "artist-stations:251089882"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-EhrWDBscM7O6hQRX-EWPHgA-large.jpg",
+        "caption": "All the songs in the mashup are turning 10 years old. Unreal 🤯",
+        "commentable": true,
+        "comment_count": 156,
+        "created_at": "2023-12-11T17:09:05Z",
+        "description": "Hope you enjoy this dose of Nostalgia, unreal that these are 10 years old 🤯 some proper throwbacks!\n\n\n----- TRACKLIST/FREE DOWNLOAD BELOW -----\n\nFollow me on instagram: https://www.instagram.com/thomasirwinmusic\n\nTRACKLIST:\nCalvin Harris - Summer\nCalvin Harris, Alesso - Under Control\nZHU - Faded\nColdplay - A Sky Full Of Stars\nOliver Heldens - Gecko\nAvicii - The Nights\nPhilip George - Wish You Were Mine\nGorgon City, MNEK - Ready For Your Love\nZedd, Halyey Willams - Stay The Night\nDavid Guetta - Lovers On The Sun\nGalantis - Runaway (You & I)\nCalvin Harris - Summer\nTove Lo - Habits (Stay High)\nCalvin Harris, John Newman - Blame\nAlesso - Heroes (we could be) ft. Tove Lo\nRoute 94, Jess Glynne - My love\nFetty Wrap - Trap Queen\nDVBBS, Martin Garrix, Sander van Doorn - Gold Skies (ft. Aleesia)\nTove Lo - Habits (Stay High)\nCalvin Harris, John Newman - Blame\nDuke Dumont, Jax Jones - I Got U\nClean Bandit, Jess Glynne - Rather Be\nKygo, Conrad Sewell - Firestone\nDuke Dumont, Jax Jones - I Got U\n\n\nFree download (in original key to prevent copyright): https://hypeddit.com/b3z4v3",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 125437,
+        "full_duration": 125440,
+        "embeddable_by": "all",
+        "genre": "2014 MASHUP",
+        "has_downloads_left": false,
+        "id": 1687821891,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2024-06-03T19:02:26Z",
+        "license": "all-rights-reserved",
+        "likes_count": 10528,
+        "permalink": "all-of-these-songs-turn-10-years-old-in-2024-2014-mega-mashup-by-thomas-irwin-2",
+        "permalink_url": "https://soundcloud.com/thomasirwinofficial/all-of-these-songs-turn-10-years-old-in-2024-2014-mega-mashup-by-thomas-irwin-2",
+        "playback_count": 676359,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1687821891,
+            "urn": "soundcloud:tracks:1687821891",
+            "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 164,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "2014 Throwback 2024 Mashup Remix EDM House Techno Aviici Alesso Kygo Zedd \"Calvin Harris\" \"Tove Lo\" tiktok 2014music Festival Tomorrowland \"Fifa \" \"Fifa 14\" \"Fifa 15\" 2010 s Nostalgia",
+        "title": "ALL OF THESE SONGS TURN 10 YEARS OLD IN 2024 (2014 Mega-mashup by Thomas Irwin) - FREE DOWNLOAD",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1687821891",
+        "urn": "soundcloud:tracks:1687821891",
+        "user_id": 387764399,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/yEtitut5aysS_m.json",
+        "display_date": "2023-12-11T17:20:07Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1687821891/6625a973-2dc1-4884-aba1-b86f19338bfe/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 125437,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1687821891/820fa7fc-44e3-4936-bea5-25b2990c8d2c/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 125437,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1687821891/e66e32cf-6e7e-42cf-9af7-19b2836e9233/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 125437,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1687821891/b836b8b2-0cb2-4d43-b827-090ce390f837/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 125440,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1687821891/b836b8b2-0cb2-4d43-b827-090ce390f837/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 125440,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1687821891",
+        "station_permalink": "track-stations:1687821891",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6IjdmNGEwNWU0LTVhMDktNGVmYy05ZTI0LTQxMGRiZWUxYjcwZCIsImlhdCI6MTc4MDI2NDgyMX0.MVdWnbkmXsJLK0do-UTP34Kmc_0XB9ifcxEfNFbtp6c",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-saBxmvzqPXzlaSFk-lDRdzQ-large.jpg",
+            "first_name": "Thomas",
+            "followers_count": 896,
+            "full_name": "Thomas Irwin",
+            "id": 387764399,
+            "kind": "user",
+            "last_modified": "2026-01-25T11:09:21Z",
+            "last_name": "Irwin",
+            "permalink": "thomasirwinofficial",
+            "permalink_url": "https://soundcloud.com/thomasirwinofficial",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A387764399",
+            "urn": "soundcloud:users:387764399",
+            "username": "Thomas Irwin",
+            "verified": false,
+            "city": "",
+            "country_code": "GB",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:387764399",
+            "station_permalink": "artist-stations:387764399"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-T3Xyv8iN8XNlpzsE-rostxg-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 58,
+        "created_at": "2022-01-07T16:25:13Z",
+        "description": "",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 189076,
+        "full_duration": 189074,
+        "embeddable_by": "all",
+        "genre": "Hip-hop & Rap",
+        "has_downloads_left": false,
+        "id": 1192152091,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2024-08-27T09:07:07Z",
+        "license": "all-rights-reserved",
+        "likes_count": 4222,
+        "permalink": "haifischnikez-allstars-x-replay-mashup-adrian-kley",
+        "permalink_url": "https://soundcloud.com/dj-adrianooo/haifischnikez-allstars-x-replay-mashup-adrian-kley",
+        "playback_count": 350593,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1192152091,
+            "urn": "soundcloud:tracks:1192152091",
+            "contains_music": true
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 13,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "ehrenloserremix mashup remix 187 tiktok replay nike gzuz bonezmc maxwell lx sa4",
+        "title": "HaifischNikez Allstars x Replay [Mashup] - DJ Adriano",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1192152091",
+        "urn": "soundcloud:tracks:1192152091",
+        "user_id": 209272335,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/JLyCl9gI7IYf_m.json",
+        "display_date": "2022-01-07T16:25:13Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1192152091/7cfcf962-fbd4-4452-a44a-551162e3ff9c/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 189076,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1192152091/9a1d3aef-02d2-49b7-9d2a-3d08d3595f4d/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 189076,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1192152091/2e8fb92c-15c4-4424-b818-a4ed1186e170/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 189076,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1192152091/790042c6-fe89-417e-8ff9-e9d668702205/stream/hls",
+                    "preset": "mp3_0_1",
+                    "duration": 189074,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1192152091/790042c6-fe89-417e-8ff9-e9d668702205/stream/progressive",
+                    "preset": "mp3_0_1",
+                    "duration": 189074,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1192152091",
+        "station_permalink": "track-stations:1192152091",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImRjYTRhYjY2LTY1NmUtNDhkZi05ZDgwLTlkNzYxODg1NzQ1NyIsImlhdCI6MTc4MDI2NDgyMX0.0-V3all-oL5WqIL-on70vTriHRh0eKajTnUbJ8IAIcs",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-DyuavvTVSmONvWKj-O84bnw-large.jpg",
+            "first_name": "Adrian",
+            "followers_count": 318,
+            "full_name": "Adrian Kley",
+            "id": 209272335,
+            "kind": "user",
+            "last_modified": "2024-08-31T18:53:23Z",
+            "last_name": "Kley",
+            "permalink": "dj-adrianooo",
+            "permalink_url": "https://soundcloud.com/dj-adrianooo",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A209272335",
+            "urn": "soundcloud:users:209272335",
+            "username": "DJ Adriano",
+            "verified": false,
+            "city": "",
+            "country_code": "DE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": false,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:209272335",
+            "station_permalink": "artist-stations:209272335"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-LCASzHHPh6LMZkcb-EC5E0Q-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 229,
+        "created_at": "2021-11-01T19:43:51Z",
+        "description": "",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 85496,
+        "full_duration": 85499,
+        "embeddable_by": "all",
+        "genre": "Hip-hop & Rap",
+        "has_downloads_left": false,
+        "id": 1152044338,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2022-05-25T16:35:33Z",
+        "license": "all-rights-reserved",
+        "likes_count": 19577,
+        "permalink": "shababs-botten-x-dark-horse",
+        "permalink_url": "https://soundcloud.com/user-614762129/shababs-botten-x-dark-horse",
+        "playback_count": 811009,
+        "public": true,
+        "publisher_metadata": null,
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 79,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Shababs Botten x Dark Horse r58",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1152044338",
+        "urn": "soundcloud:tracks:1152044338",
+        "user_id": 1046245783,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/KVNOoBVkrvlg_m.json",
+        "display_date": "2021-11-01T19:43:51Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1152044338/7dba10f8-53f9-41b5-95f7-ac1bbde9f64a/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 85496,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1152044338/f797f6b5-083c-4b23-b496-dcf2768dc960/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 85496,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1152044338/2df2ce55-3c7f-4f17-a846-a4a826b63c7c/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 85496,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1152044338/fbb28359-3701-46ea-9971-7de277d2e199/stream/hls",
+                    "preset": "mp3_0_1",
+                    "duration": 85499,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1152044338/fbb28359-3701-46ea-9971-7de277d2e199/stream/progressive",
+                    "preset": "mp3_0_1",
+                    "duration": 85499,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1152044338",
+        "station_permalink": "track-stations:1152044338",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImM3ODY3NGExLWM5NDUtNDU4My1hNDA4LTEzOGJhYzEwNDI3YSIsImlhdCI6MTc4MDI2NDgyMX0.1s4gan_Jd4wnADR_ziQ3gRbB6P3kgzBkjjPz_ScMtH8",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-HNFcR5e9NTuZfv9B-g6qqHA-large.jpg",
+            "first_name": "Rene",
+            "followers_count": 497,
+            "full_name": "Rene Lickert",
+            "id": 1046245783,
+            "kind": "user",
+            "last_modified": "2021-11-01T19:47:07Z",
+            "last_name": "Lickert",
+            "permalink": "user-614762129",
+            "permalink_url": "https://soundcloud.com/user-614762129",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A1046245783",
+            "urn": "soundcloud:users:1046245783",
+            "username": "r58",
+            "verified": false,
+            "city": "",
+            "country_code": null,
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": false,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:1046245783",
+            "station_permalink": "artist-stations:1046245783"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-lvWN9FXYz4W2WQKo-QFxUzA-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 18,
+        "created_at": "2022-06-08T10:20:38Z",
+        "description": "Out 1/7 on https://music.soaverecords.com/laylon",
+        "downloadable": false,
+        "download_count": 6,
+        "duration": 155123,
+        "full_duration": 155115,
+        "embeddable_by": "all",
+        "genre": "Dance & EDM",
+        "has_downloads_left": false,
+        "id": 1283422852,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2022-07-12T13:40:19Z",
+        "license": "all-rights-reserved",
+        "likes_count": 4967,
+        "permalink": "loafers-badjack-maxim-schunk-lay-all-your-love-on-me",
+        "permalink_url": "https://soundcloud.com/selectedtunes/loafers-badjack-maxim-schunk-lay-all-your-love-on-me",
+        "playback_count": 431832,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1283422852,
+            "urn": "soundcloud:tracks:1283422852",
+            "artist": "loafers",
+            "contains_music": true,
+            "upc_or_ean": "5063113277566",
+            "isrc": "NLT2H2200430"
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 50,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "loafers, Badjack, Maxim Schunk - Lay All Your Love On Me",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1283422852",
+        "urn": "soundcloud:tracks:1283422852",
+        "user_id": 168160673,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/lHvlADUPU096_m.json",
+        "display_date": "2022-06-29T23:00:07Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1283422852/e9d0d828-8352-4612-a6a0-16dd605209fb/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 155123,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1283422852/5eb04ac3-5f58-45c5-bb58-97e9edc414ff/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 155123,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1283422852/3ea756e5-488e-4dca-aa9f-ce15ebeb53ce/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 155123,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1283422852/b83c100b-d893-4a31-bf97-26c24ff99050/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 155115,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1283422852/b83c100b-d893-4a31-bf97-26c24ff99050/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 155115,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1283422852",
+        "station_permalink": "track-stations:1283422852",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImI2MjBhMTM0LWRmMTQtNDIzZS1iNTVmLTAzODZiZDdkYzlmYiIsImlhdCI6MTc4MDI2NDgyMX0.3jHvZh-GDIvFtJpVsAK0WvRhacOHtw7PDWh3uTDN6os",
+        "monetization_model": "NOT_APPLICABLE",
+        "policy": "ALLOW",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-OCsJkuqctk3qlyRL-8WDuzQ-large.jpg",
+            "first_name": "Dance & House Music",
+            "followers_count": 48722,
+            "full_name": "Dance & House Music",
+            "id": 168160673,
+            "kind": "user",
+            "last_modified": "2026-05-29T11:07:02Z",
+            "last_name": "",
+            "permalink": "selectedtunes",
+            "permalink_url": "https://soundcloud.com/selectedtunes",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A168160673",
+            "urn": "soundcloud:users:168160673",
+            "username": "Soave Tunes",
+            "verified": true,
+            "city": null,
+            "country_code": "SE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": true
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:168160673",
+            "station_permalink": "artist-stations:168160673"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-FujFdvvy1uw6uvoJ-1KudTg-large.png",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 10,
+        "created_at": "2026-04-08T20:41:31Z",
+        "description": "Das ist nur ein Proof of Concept.",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 209497,
+        "full_duration": 209502,
+        "embeddable_by": "me",
+        "genre": "",
+        "has_downloads_left": false,
+        "id": 2299072331,
+        "kind": "track",
+        "label_name": "",
+        "last_modified": "2026-04-08T20:41:31Z",
+        "license": "all-rights-reserved",
+        "likes_count": 903,
+        "permalink": "lp-ssio-mashup",
+        "permalink_url": "https://soundcloud.com/simonreitinger/lp-ssio-mashup",
+        "playback_count": 18766,
+        "public": true,
+        "publisher_metadata": {
+            "id": 2299072331,
+            "urn": "soundcloud:tracks:2299072331",
+            "explicit": false
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 5,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Linkin Park x SSIO - One Step Closer  / Alles oder nix [MASHUP]",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2299072331",
+        "urn": "soundcloud:tracks:2299072331",
+        "user_id": 267460565,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/qaWkhwY4Jmz2_m.json",
+        "display_date": "2026-04-08T20:41:31Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2299072331/f1be92ef-5ff3-437d-8fa1-b7eaa831316d/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 209497,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2299072331/fc538521-74dd-4435-bf7c-39beafb78709/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 209497,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2299072331/8ce61f87-466d-4967-b058-6285559bd53d/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 209497,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2299072331/670997f5-fe84-4340-99bd-b4aa679e3e73/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 209502,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2299072331/670997f5-fe84-4340-99bd-b4aa679e3e73/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 209502,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:2299072331",
+        "station_permalink": "track-stations:2299072331",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImMwMjA5MmExLTNiZDItNGQ0NS05OGUzLTNmZTJhZjBlYjA0MCIsImlhdCI6MTc4MDI2NDgyMX0.ZJjPCFLtaCA5CihT6MhGFVe79sLBuuKCKOXDXgHAf-s",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-6H8rkYnnmJqhTtfG-T9DJ8g-large.jpg",
+            "first_name": "",
+            "followers_count": 1251,
+            "full_name": "",
+            "id": 267460565,
+            "kind": "user",
+            "last_modified": "2025-10-02T12:19:16Z",
+            "last_name": "",
+            "permalink": "simonreitinger",
+            "permalink_url": "https://soundcloud.com/simonreitinger",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A267460565",
+            "urn": "soundcloud:users:267460565",
+            "username": "rimonseitinger",
+            "verified": false,
+            "city": "",
+            "country_code": null,
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": false,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:267460565",
+            "station_permalink": "artist-stations:267460565"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-zzvREPLWxTHrAPMx-tR0AqQ-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 57,
+        "created_at": "2021-09-21T12:57:02Z",
+        "description": "All Night, No Sleep\nCause i feeeeeeheel like I’m always dRe4MiNg!!",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 157540,
+        "full_duration": 157544,
+        "embeddable_by": "all",
+        "genre": "Techno",
+        "has_downloads_left": false,
+        "id": 1128510781,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2022-04-11T09:34:41Z",
+        "license": "all-rights-reserved",
+        "likes_count": 13534,
+        "permalink": "all-night",
+        "permalink_url": "https://soundcloud.com/extaso/all-night",
+        "playback_count": 819253,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1128510781,
+            "urn": "soundcloud:tracks:1128510781",
+            "artist": "Extaso",
+            "contains_music": true,
+            "isrc": "QZFP52233221"
+        },
+        "purchase_title": "Extaso Webseite",
+        "purchase_url": "https://linktr.ee/extaso",
+        "release_date": null,
+        "reposts_count": 149,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "Extaso All Night Hardtekk Tekk Strezzkidz Booking 2021",
+        "title": "Extaso - All Night",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1128510781",
+        "urn": "soundcloud:tracks:1128510781",
+        "user_id": 10695247,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/ILpQkPhPbiYq_m.json",
+        "display_date": "2021-09-21T12:57:02Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1128510781/ee173ab9-6bc7-4897-b05a-4e7648ed3a5d/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 157540,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1128510781/eee9ecb1-c495-467a-a48a-17ca1baee619/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 157540,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1128510781/64f69a5e-7d60-4806-bb97-bcb64d7f1494/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 157540,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1128510781/6ba89aa0-b0db-4b0c-842c-e7ccde830efc/stream/hls",
+                    "preset": "mp3_0_1",
+                    "duration": 157544,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1128510781/6ba89aa0-b0db-4b0c-842c-e7ccde830efc/stream/progressive",
+                    "preset": "mp3_0_1",
+                    "duration": 157544,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1128510781",
+        "station_permalink": "track-stations:1128510781",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImRkOTZkZWNmLTRmYTctNDJkZC1hN2M3LThlNGJlZDg2ZDAzYyIsImlhdCI6MTc4MDI2NDgyMX0.Sx5tQ3-nVHYzwYH7Zs51rTLd_sLa_BouNmBxgk_ifFo",
+        "monetization_model": "AD_SUPPORTED",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-zSnuN0LmPwNvAg32-lURyPQ-large.jpg",
+            "first_name": "Enrico",
+            "followers_count": 41730,
+            "full_name": "Enrico Huke",
+            "id": 10695247,
+            "kind": "user",
+            "last_modified": "2026-04-17T15:37:28Z",
+            "last_name": "Huke",
+            "permalink": "extaso",
+            "permalink_url": "https://soundcloud.com/extaso",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A10695247",
+            "urn": "soundcloud:users:10695247",
+            "username": "Extaso",
+            "verified": true,
+            "city": "Eichsfeld",
+            "country_code": "DE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": true
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:10695247",
+            "station_permalink": "artist-stations:10695247"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-BvN8GgSj5kmoQ2BV-vyeiOg-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 266,
+        "created_at": "2024-04-20T12:57:31Z",
+        "description": "VÖLLIG LOSGELÖST von Zensery ✨ insta: zensery513",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 152189,
+        "full_duration": 152189,
+        "embeddable_by": "all",
+        "genre": "Hip-hop & Rap",
+        "has_downloads_left": false,
+        "id": 1804239240,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2024-04-20T12:57:38Z",
+        "license": "all-rights-reserved",
+        "likes_count": 14754,
+        "permalink": "vo-llig-losgelo-st-zensery",
+        "permalink_url": "https://soundcloud.com/user-245243773/vo-llig-losgelo-st-zensery",
+        "playback_count": 784317,
+        "public": true,
+        "publisher_metadata": null,
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 105,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "VÖLLIG LOSGELÖST - Zensery",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1804239240",
+        "urn": "soundcloud:tracks:1804239240",
+        "user_id": 275453506,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/XG1IfHOVRn9c_m.json",
+        "display_date": "2024-04-20T12:57:31Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1804239240/05230ab5-23ac-40e0-8da7-015881d47ae4/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 152189,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1804239240/be46745f-1d7d-4edb-8c95-74460cb65e13/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 152189,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1804239240/78084f9c-a07f-4de5-a91e-657887ac7a50/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 152189,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1804239240/3257551e-44e1-4064-9344-8116cdb7263a/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 152189,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1804239240/3257551e-44e1-4064-9344-8116cdb7263a/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 152189,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1804239240",
+        "station_permalink": "track-stations:1804239240",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6Ijc1MzYzZDBhLThjZWEtNGQ3MC05MDBiLWQ2NzdiNmRjMmFhNCIsImlhdCI6MTc4MDI2NDgyMX0.FgrPMFL8yYS6yvcsBw3DKgBjS1T04XjN4N5fZfmHQPs",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-4eLr65So7PatkE7k-yLdzgg-large.jpg",
+            "first_name": "",
+            "followers_count": 8241,
+            "full_name": "",
+            "id": 275453506,
+            "kind": "user",
+            "last_modified": "2026-02-24T18:24:32Z",
+            "last_name": "",
+            "permalink": "user-245243773",
+            "permalink_url": "https://soundcloud.com/user-245243773",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A275453506",
+            "urn": "soundcloud:users:275453506",
+            "username": "Zensery",
+            "verified": false,
+            "city": "Berlin",
+            "country_code": "DE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:275453506",
+            "station_permalink": "artist-stations:275453506"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-4itA4KUm7LjG9whq-9tcW3g-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 1253,
+        "created_at": "2023-04-12T19:19:55Z",
+        "description": "",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 285635,
+        "full_duration": 285623,
+        "embeddable_by": "all",
+        "genre": "Hard Techno",
+        "has_downloads_left": false,
+        "id": 1490904340,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-07-21T13:50:40Z",
+        "license": "all-rights-reserved",
+        "likes_count": 28646,
+        "permalink": "peter-fox-alles-neu-remix-by-jelumix-free-dl",
+        "permalink_url": "https://soundcloud.com/jelumix/peter-fox-alles-neu-remix-by-jelumix-free-dl",
+        "playback_count": 1191894,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1490904340,
+            "urn": "soundcloud:tracks:1490904340",
+            "contains_music": true
+        },
+        "purchase_title": "FREE DOWNLOAD",
+        "purchase_url": "https://hypeddit.com/jelumix/peter-fox-remix",
+        "release_date": null,
+        "reposts_count": 945,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "Techno Hardtechno Remix \"Peter Fox\" \"Alles Neu\"",
+        "title": "Peter Fox - Alles Neu [REMIX by JELUMIX]",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1490904340",
+        "urn": "soundcloud:tracks:1490904340",
+        "user_id": 232305763,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/YOCoBQZcECWP_m.json",
+        "display_date": "2023-04-12T19:19:55Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1490904340/95ee4ec9-4c37-47fd-992f-3e19835a792d/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 285635,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1490904340/5b2a5740-0479-4795-96e8-360aeedaa9f4/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 285635,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1490904340/d6440714-2c1a-4be4-8ee9-49c1b310bcf7/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 285635,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1490904340/90e6cc32-215b-496a-9174-87014d77578c/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 285623,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1490904340/90e6cc32-215b-496a-9174-87014d77578c/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 285623,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1490904340",
+        "station_permalink": "track-stations:1490904340",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6IjE1NDdlYjYzLWI4NzAtNGQ4Ni1iMTFmLTcxMzIyNzVjMDQ0YSIsImlhdCI6MTc4MDI2NDgyMX0.LM0PH4OUz9FoD5UspvypeMhL0x_FK7WQNvxrA-N5BNk",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://a1.sndcdn.com/images/default_avatar_large.png",
+            "first_name": "JELUMIX",
+            "followers_count": 2761,
+            "full_name": "JELUMIX",
+            "id": 232305763,
+            "kind": "user",
+            "last_modified": "2026-04-17T10:01:53Z",
+            "last_name": "",
+            "permalink": "jelumix",
+            "permalink_url": "https://soundcloud.com/jelumix",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A232305763",
+            "urn": "soundcloud:users:232305763",
+            "username": "JELUMIX",
+            "verified": false,
+            "city": "Dortmund",
+            "country_code": "DE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:232305763",
+            "station_permalink": "artist-stations:232305763"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-rFJaksHjTrRnePkL-KkS28Q-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 1,
+        "created_at": "2021-12-02T12:03:41Z",
+        "description": "original video - https://www.youtube.com/watch?v=H9CS3khI6u4 (Matt Faraci)",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 49164,
+        "full_duration": 49162,
+        "embeddable_by": "all",
+        "genre": "Trap",
+        "has_downloads_left": false,
+        "id": 1170449122,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2021-12-02T12:04:14Z",
+        "license": "all-rights-reserved",
+        "likes_count": 138,
+        "permalink": "then-we-hit-the-field-like-final",
+        "permalink_url": "https://soundcloud.com/user-143131559/then-we-hit-the-field-like-final",
+        "playback_count": 9950,
+        "public": true,
+        "publisher_metadata": {
+            "id": 1170449122,
+            "urn": "soundcloud:tracks:1170449122",
+            "artist": "GMH",
+            "contains_music": true,
+            "isrc": "QZS672193973",
+            "explicit": false,
+            "writer_composer": "Christiaan Coetzee"
+        },
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 3,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "HYPE PREGAME FOOTBALL WARCRY ALLDAY BANGER",
+        "title": "THEN WE HIT THE FIELD LIKE",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1170449122",
+        "urn": "soundcloud:tracks:1170449122",
+        "user_id": 1014968389,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/rtBGOX8AYhFP_m.json",
+        "display_date": "2021-12-02T12:03:41Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1170449122/80d2f71d-6112-4d29-9c48-dfa206b63736/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 49164,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1170449122/c7a3ce87-a4c8-4566-9082-9c7ebf0ac490/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 49164,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1170449122/33fbf293-a1b3-4af3-bd51-5872de528d2c/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 49164,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1170449122/74f19373-645e-44e6-a5f3-c6e31e418e30/stream/hls",
+                    "preset": "mp3_0_1",
+                    "duration": 49162,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1170449122/74f19373-645e-44e6-a5f3-c6e31e418e30/stream/progressive",
+                    "preset": "mp3_0_1",
+                    "duration": 49162,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1170449122",
+        "station_permalink": "track-stations:1170449122",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImFkYzJiOTNlLWIwZmEtNGE5Zi1hZjk5LWE5ODM1N2Y3OTlhNSIsImlhdCI6MTc4MDI2NDgyMX0.c8SwSikzuN2I6pq--S70U9nSR_1xtwwtkWMI5hEioKE",
+        "monetization_model": "AD_SUPPORTED",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-gm87Y4qYGAo4eH98-y6F8JA-large.jpg",
+            "first_name": "Chris",
+            "followers_count": 50,
+            "full_name": "Chris",
+            "id": 1014968389,
+            "kind": "user",
+            "last_modified": "2024-06-25T16:14:47Z",
+            "last_name": "",
+            "permalink": "user-143131559",
+            "permalink_url": "https://soundcloud.com/user-143131559",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A1014968389",
+            "urn": "soundcloud:users:1014968389",
+            "username": "GMH",
+            "verified": false,
+            "city": "Cape Town",
+            "country_code": "ZA",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": true,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:1014968389",
+            "station_permalink": "artist-stations:1014968389"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-xIZk11ucFr8ijYzX-2tOUUA-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 196,
+        "created_at": "2023-02-09T17:27:30Z",
+        "description": "Follow me for more! :) ",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 166751,
+        "full_duration": 166740,
+        "embeddable_by": "all",
+        "genre": "Techno",
+        "has_downloads_left": false,
+        "id": 1443330169,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2023-02-09T17:27:38Z",
+        "license": "all-rights-reserved",
+        "likes_count": 33239,
+        "permalink": "schuettel-dein-speck-peter-fox",
+        "permalink_url": "https://soundcloud.com/user-821484205/schuettel-dein-speck-peter-fox",
+        "playback_count": 1974587,
+        "public": true,
+        "publisher_metadata": null,
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 164,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Schüttel dein Speck - Peter Fox (Padrins Techno Remix)",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A1443330169",
+        "urn": "soundcloud:tracks:1443330169",
+        "user_id": 1159459921,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/lnticL05kqWF_m.json",
+        "display_date": "2023-02-09T17:27:30Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1443330169/38aa47a6-c7bc-474f-a474-f390577b14c2/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 166751,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1443330169/20ca1059-0ec6-4f5d-8ffd-7473ae448cb8/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 166751,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1443330169/1923b5a8-46c5-4c18-a715-ade89cf6f50f/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 166751,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1443330169/0c9d9767-a6a1-4744-a68c-b76f090309e1/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 166740,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:1443330169/0c9d9767-a6a1-4744-a68c-b76f090309e1/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 166740,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:1443330169",
+        "station_permalink": "track-stations:1443330169",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6IjQ5NjVlYzFiLTg5N2QtNGEyNS05ZTMwLWQ4Zjg2MWIxNzAwMCIsImlhdCI6MTc4MDI2NDgyMX0.Law5EG6hNg9kHeubNvlxHxAksYGvZewG6Sx9Sji5Jdc",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-jGFzEwa25zvyh3u0-Ep1nJA-large.jpg",
+            "first_name": "",
+            "followers_count": 2652,
+            "full_name": "",
+            "id": 1159459921,
+            "kind": "user",
+            "last_modified": "2024-01-28T13:09:05Z",
+            "last_name": "",
+            "permalink": "user-821484205",
+            "permalink_url": "https://soundcloud.com/user-821484205",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A1159459921",
+            "urn": "soundcloud:users:1159459921",
+            "username": "Padrins",
+            "verified": false,
+            "city": "Goslar",
+            "country_code": "DE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": false,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:1159459921",
+            "station_permalink": "artist-stations:1159459921"
+        }
+    },
+    {
+        "artwork_url": "https://i1.sndcdn.com/artworks-dNtPRjpuEUHAdSHM-TttQCw-large.jpg",
+        "caption": null,
+        "commentable": true,
+        "comment_count": 433,
+        "created_at": "2025-01-27T18:11:09Z",
+        "description": "Angels Sippen x Ich will nur das du weißt\n\nSymba x SDP\n\n\n———\nMashup by DerHeimer\n\nMelodie by SDP\nRap by Symba\n\nAll credits are going to the orginal Artists",
+        "downloadable": false,
+        "download_count": 0,
+        "duration": 188475,
+        "full_duration": 188500,
+        "embeddable_by": "all",
+        "genre": "Hip-hop & Rap",
+        "has_downloads_left": false,
+        "id": 2019515673,
+        "kind": "track",
+        "label_name": null,
+        "last_modified": "2025-01-27T18:12:54Z",
+        "license": "all-rights-reserved",
+        "likes_count": 28379,
+        "permalink": "angels-sippen-x-ich-will-nur",
+        "permalink_url": "https://soundcloud.com/d3r-h31m3r/angels-sippen-x-ich-will-nur",
+        "playback_count": 1130137,
+        "public": true,
+        "publisher_metadata": null,
+        "purchase_title": null,
+        "purchase_url": null,
+        "release_date": null,
+        "reposts_count": 190,
+        "secret_token": null,
+        "sharing": "public",
+        "state": "finished",
+        "streamable": true,
+        "tag_list": "",
+        "title": "Angels Sippen x Ich will nur das du weißt | Mashup by DerHeimer",
+        "uri": "https://api.soundcloud.com/tracks/soundcloud%3Atracks%3A2019515673",
+        "urn": "soundcloud:tracks:2019515673",
+        "user_id": 1266748825,
+        "visuals": null,
+        "waveform_url": "https://wave.sndcdn.com/M2z35Y0hLJAE_m.json",
+        "display_date": "2025-01-27T18:11:09Z",
+        "media": {
+            "transcodings": [
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2019515673/050250ab-f208-4535-937a-28f247800f07/stream/hls",
+                    "preset": "aac_160k",
+                    "duration": 188475,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2019515673/655ff951-afa5-4b45-a025-dad6d87a250d/stream/hls",
+                    "preset": "aac_96k",
+                    "duration": 188475,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mp4; codecs=\"mp4a.40.2\""
+                    },
+                    "quality": "lq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2019515673/73105316-e34d-4b79-9ee8-cdc0f4013853/stream/hls",
+                    "preset": "abr_sq",
+                    "duration": 188475,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpegurl"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": false
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2019515673/fa153081-291e-45f4-8072-1044cb7f2105/stream/hls",
+                    "preset": "mp3_1_0",
+                    "duration": 188500,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "hls",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                },
+                {
+                    "url": "https://api-v2.soundcloud.com/media/soundcloud:tracks:2019515673/fa153081-291e-45f4-8072-1044cb7f2105/stream/progressive",
+                    "preset": "mp3_1_0",
+                    "duration": 188500,
+                    "snipped": false,
+                    "format": {
+                        "protocol": "progressive",
+                        "mime_type": "audio/mpeg"
+                    },
+                    "quality": "sq",
+                    "is_legacy_transcoding": true
+                }
+            ]
+        },
+        "station_urn": "soundcloud:system-playlists:track-stations:2019515673",
+        "station_permalink": "track-stations:2019515673",
+        "track_authorization": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJnZW8iOiJERSIsInN1YiI6IiIsInJpZCI6ImMxNjFhMGZiLTRjY2ItNGFiYi05YjE0LWRhMmRmYjk2YzUzNyIsImlhdCI6MTc4MDI2NDgyMX0.qV1wSJ6ClW-tR2nutjX-6_StC29cksMySDGOwNt8xmM",
+        "monetization_model": "BLACKBOX",
+        "policy": "MONETIZE",
+        "user": {
+            "avatar_url": "https://i1.sndcdn.com/avatars-VuyIqBe8EKjIP5V6-d7OXMA-large.jpg",
+            "first_name": "D3r",
+            "followers_count": 1313,
+            "full_name": "D3r H31m3r",
+            "id": 1266748825,
+            "kind": "user",
+            "last_modified": "2025-05-07T11:42:54Z",
+            "last_name": "H31m3r",
+            "permalink": "d3r-h31m3r",
+            "permalink_url": "https://soundcloud.com/d3r-h31m3r",
+            "uri": "https://api.soundcloud.com/users/soundcloud%3Ausers%3A1266748825",
+            "urn": "soundcloud:users:1266748825",
+            "username": "DerHeimer",
+            "verified": false,
+            "city": "Berlin",
+            "country_code": "DE",
+            "badges": {
+                "pro": false,
+                "creator_mid_tier": false,
+                "pro_unlimited": false,
+                "verified": false
+            },
+            "station_urn": "soundcloud:system-playlists:artist-stations:1266748825",
+            "station_permalink": "artist-stations:1266748825"
+        }
+    }
+]
